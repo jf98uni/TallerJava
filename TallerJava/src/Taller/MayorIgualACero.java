@@ -4,6 +4,8 @@ import com.sun.source.tree.DoWhileLoopTree;
 
 import java.util.Scanner;
 
+
+// prueba si el numero ingresado es mayor a cero y si no lo es lo vuelve a pedir hasta que sea mayor a cero
 public class MayorIgualACero {
     static Scanner captura = new Scanner(System.in);
 
