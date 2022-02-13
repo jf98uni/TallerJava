@@ -14,7 +14,7 @@ public class Soniguales {
         String NuevaPalabra = "";
         String letdif = "";
 
-        // verifica si las palabras son iguales 
+        // verifica si las palabras son iguales
         if (a.equals(b)){
             return "Son iguales";
         }
