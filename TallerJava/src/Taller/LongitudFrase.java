@@ -1,7 +1,6 @@
 package Taller;
 
 import java.util.Scanner;
-import java.util.SplittableRandom;
 
 // cuenta la cantidad de letras
 public class LongitudFrase {
