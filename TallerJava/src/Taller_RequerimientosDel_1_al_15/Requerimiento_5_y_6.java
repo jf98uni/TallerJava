@@ -1,4 +1,4 @@
-package Taller_RequerimientosDel_1_al_14;
+package Taller_RequerimientosDel_1_al_15;
 
 // calcula los impares de dos formas diferentes
 public class Requerimiento_5_y_6 {
