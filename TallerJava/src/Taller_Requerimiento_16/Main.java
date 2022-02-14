@@ -1,37 +1,12 @@
 package Taller_Requerimiento_16;
 
+import java.net.PasswordAuthentication;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     static Scanner captura = new Scanner(System.in);
 
-    public static int calcularIMC(double peso, double altura){
-
-        double imc = (peso/(Math.pow(altura,2)));
-
-        if (imc < 20){
-            return -1;
-        }
-        if ((imc >= 20 ) && (imc <= 25)){
-            return 0;
-        }
-
-        else{
-            return 1;
-        }
-
-    }
-
-    public static boolean esMayorDeEdad(int edad){
-        if (edad < 18){
-            return false;
-        }
-
-        else{
-            return true;
-        }
-    }
 
     public static char comprobarSexo(char sexo){
         if ((sexo == 'h') || (sexo == 'm')){
@@ -44,37 +19,48 @@ public class Main {
     }
 
 
-
     public static void main(String[] args) {
 
         System.out.println("Escribe el nombre: ");
         String pNombre = captura.nextLine();
 
         System.out.println("Escribe la edad: ");
-        int pEdad = Integer.getInteger(captura.nextLine());
 
-        System.out.println("Escribe el sexo: ");
+        String edad = captura.nextLine();
+
+        int pEdad = Integer.parseInt(edad);
+
+
+
+        System.out.println("Escribe el sexo: ( 'm' o 'h' ");
         char pSexo = captura.nextLine().toLowerCase().charAt(0);
 
-        System.out.println("Escribe el nombre: ");
-        String pDNI = captura.nextLine();
 
-        System.out.println("Escribe el nombre: ");
-        double pAltura = Integer.getInteger(captura.nextLine());
+        System.out.println("Escribe la altura en metros: ");
+        double pAltura = Double.parseDouble(captura.nextLine());
 
-        System.out.println("Escribe el nombre: ");
-        double pPeso = Integer.getInteger(captura.nextLine());
+        System.out.println("Escribe el peso en kg: ");
+        double pPeso = Double.parseDouble(captura.nextLine());
 
         Persona persona1 = new Persona();
 
         Persona persona2 = new Persona(pNombre,pEdad,pSexo);
 
-        Persona persona3 = new Persona(pNombre,pEdad,pSexo,pDNI,pPeso,pAltura);
+        persona2.setNombre(pNombre);
+        persona2.setEdad(pEdad);
+        persona2.setSexo(comprobarSexo(pSexo));
 
-        ArrayList personas = new ArrayList();
+        Persona persona3 = new Persona(pNombre,pEdad,pSexo,pPeso,pAltura);
 
-        personas.add(persona1);
-        personas.add(persona2);
-        personas.add(persona3);
+        persona3.setAltura(pAltura);
+        persona3.setSexo(comprobarSexo(pSexo));
+        persona3.setPeso(pPeso);
+        persona3.setNombre(pNombre);
+        persona3.setEdad(pEdad);
+
+        System.out.println(persona1);
+        System.out.println(persona2);
+        System.out.println(persona3);
+
     }
 }

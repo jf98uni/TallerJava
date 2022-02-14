@@ -1,0 +1,19 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(öÍãœ
+E
+java:S3740"/Provide the parametrized type for this generic.(öÍãœ
+J
+java:S3740"/Provide the parametrized type for this generic.(ì¼‹şÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ì¼‹şÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(„®§9
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(·µõÛşÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(êåæùÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(½İ´óüÿÿÿÿ
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞôÔ´şÿÿÿÿ8ò’Ã©ï/
+>
+java:S1643%"Use a StringBuilder instead.(Öä“Ûúÿÿÿÿ8ÀıÇ©ï/
+9
+java:S1643."Use a StringBuilder instead.(åèÏ8¡´È©ï/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Äªåıÿÿÿÿ

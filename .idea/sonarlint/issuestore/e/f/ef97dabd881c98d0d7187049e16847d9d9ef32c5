@@ -1,0 +1,8 @@
+
+T
+java:S1659">Declare "e" and all following declarations on a separate line.(ü±¸
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(Â®Ìk
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(¸ì’èşÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(æ¥Ä¼úÿÿÿÿ
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(å×şÊ8¦É³­ï/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“Ú¾‰
