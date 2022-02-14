@@ -1,8 +1,8 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 import java.util.Scanner;
 
 // calcula el area de un circulo
-public class CalcularArea {
+public class Requerimiento_3 {
     static Scanner captura = new Scanner(System.in);
 
 // pide el radio del circulo para calcular el area y retorna le area

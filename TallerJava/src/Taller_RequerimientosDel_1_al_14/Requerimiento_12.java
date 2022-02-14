@@ -1,10 +1,9 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
-import javax.annotation.processing.SupportedSourceVersion;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Soniguales {
+public class Requerimiento_12 {
 
     static Scanner captura = new Scanner(System.in);
 

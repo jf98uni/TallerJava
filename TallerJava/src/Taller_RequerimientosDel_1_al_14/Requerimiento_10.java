@@ -1,8 +1,8 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
 import java.util.Scanner;
 
-public class QuitarEspacios {
+public class Requerimiento_10 {
     static Scanner captura = new Scanner(System.in);
 
     // quita los espacio a una frase ingresada por el usuario.

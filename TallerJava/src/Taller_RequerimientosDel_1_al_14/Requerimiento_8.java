@@ -1,8 +1,8 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
 import java.util.Scanner;
 
-public class DiaDeLaSemana {
+public class Requerimiento_8 {
     static Scanner captura = new Scanner(System.in);
     // compara el dato ingresado por el usuario con los casos y retorna si es dia habil o no
     public static String comparador (String dia)

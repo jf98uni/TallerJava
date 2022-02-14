@@ -1,8 +1,6 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
-import java.util.ArrayList;
-
-public class QuitaAyConcatena {
+public class Requerimiento_9 {
 
 // cambia las a por e usando replace
     public static String iterador (){

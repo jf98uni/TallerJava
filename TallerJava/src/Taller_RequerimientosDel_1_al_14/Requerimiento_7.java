@@ -1,12 +1,10 @@
-package Taller;
-
-import com.sun.source.tree.DoWhileLoopTree;
+package Taller_RequerimientosDel_1_al_14;
 
 import java.util.Scanner;
 
 
 // prueba si el numero ingresado es mayor a cero y si no lo es lo vuelve a pedir hasta que sea mayor a cero
-public class MayorIgualACero {
+public class Requerimiento_7 {
     static Scanner captura = new Scanner(System.in);
 
     public static String comprobar (double a){

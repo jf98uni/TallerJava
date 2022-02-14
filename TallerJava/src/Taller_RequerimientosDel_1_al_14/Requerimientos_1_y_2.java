@@ -1,10 +1,9 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
-import java.security.DrbgParameters;
 import java.util.Scanner;
 
 // calcula si un numero es mayor, menor o igual a otro
-public class CalcularMayorMenorIgual {
+public class Requerimientos_1_y_2 {
     static Scanner captura = new Scanner(System.in);
 
     // pide dos numeros y regra el mayor o dice sin son iguales

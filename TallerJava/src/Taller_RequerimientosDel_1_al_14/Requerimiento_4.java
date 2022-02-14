@@ -1,9 +1,9 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
 import java.util.Scanner;
 
 //calcula el precio con iva
-public class PrecioIVA {
+public class Requerimiento_4 {
     // pide el precio al usuario
     static Scanner captura = new Scanner(System.in);
     // el porcentagje es fijo

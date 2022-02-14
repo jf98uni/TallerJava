@@ -1,7 +1,7 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
 // calcula los impares de dos formas diferentes
-public class NumerosImpares {
+public class Requerimiento_5_y_6 {
 
     // calcula los impares usando while
     public static String imparesWhile (){

@@ -1,9 +1,9 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 
 import java.util.Scanner;
 
 // cuenta la cantidad de letras
-public class LongitudFrase {
+public class Requerimiento_11 {
     static Scanner captura = new Scanner(System.in);
     public static String contador (String phrase){
         return "La longitud es de:" + phrase.length();

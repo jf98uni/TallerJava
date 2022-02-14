@@ -1,9 +1,9 @@
-package Taller;
+package Taller_RequerimientosDel_1_al_14;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class FechaYhora {
+public class Requerimiento_13 {
     static Scanner captura = new Scanner(System.in);
 
 
