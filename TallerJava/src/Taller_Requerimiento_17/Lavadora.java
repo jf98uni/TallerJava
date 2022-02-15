@@ -39,7 +39,9 @@ public class Lavadora extends Electrodomestico {
         if (pCarga > 30){
             double precioNuevo = 50 + super.getPrecio();
             super.setPrecio(precioNuevo);
+
         }
+        System.out.println(super.getPrecio());
     }
 
 

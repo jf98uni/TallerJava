@@ -6,10 +6,12 @@ public class Televisor extends Electrodomestico {
     protected static final double resolucionPorDefecto = 20;
     protected static final boolean TDTporDefecto = false;
 
+
     //atributos clase
 
     private double resolucion;
     private boolean TDT;
+    private double precio;
 
     // constructores
 
@@ -58,5 +60,6 @@ public class Televisor extends Electrodomestico {
             double preNuevo2 = super.getPrecio() + 50;
             super.setPrecio(preNuevo2);
         }
+        super.getPrecio();
     }
 }
