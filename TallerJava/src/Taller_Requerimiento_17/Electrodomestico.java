@@ -40,6 +40,7 @@ public class Electrodomestico {
         this.consumo = pConsumo;
     }
 
+
     // getters and setters
 
     public void setPeso (double pPeso){
