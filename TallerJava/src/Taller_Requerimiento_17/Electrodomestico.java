@@ -111,25 +111,31 @@ public class Electrodomestico {
             case 'a':
 
                 precio += 100;
+                break;
 
             case 'b':
 
                 precio += 80;
+                break;
 
             case 'c':
 
                 precio += 60;
+                break;
 
             case 'd':
 
                 precio += 50;
+                break;
 
             case 'e':
 
                 precio += 30;
+                break;
 
             case 'f':
                 precio += 10;
+                break;
 
         }
 
@@ -154,8 +160,6 @@ public class Electrodomestico {
         this.precio = precio;
 
     }
-
-
 
 
 
