@@ -59,8 +59,11 @@ public class Main {
         persona3.setEdad(pEdad);
 
         System.out.println(persona1);
+        System.out.println("La siguiente \n\n");
         System.out.println(persona2);
+        System.out.println("La siguiente \n\n");
         System.out.println(persona3);
+        System.out.println("Fin");
 
     }
 }
